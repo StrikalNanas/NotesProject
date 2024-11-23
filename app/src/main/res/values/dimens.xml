@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_notes_title">45sp</dimen>
+    <dimen name="note_title_size">25sp</dimen>
+    <dimen name="note_content_size">15sp</dimen>
+
+    <dimen name="input_title_size_editor">20sp</dimen>
+    <dimen name="input_content_size_editor">15sp</dimen>
+
+    <dimen name="margin_mini">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_intermediate">12dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_extra_large">32dp</dimen>
+
+    <dimen name="padding_mini">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_intermediate">12dp</dimen>
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_extra_large">32dp</dimen>
+
+</resources>

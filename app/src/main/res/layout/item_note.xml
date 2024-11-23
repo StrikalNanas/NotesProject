@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_intermediate"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/note_color">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_title"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/note_title_size"
+            android:layout_margin="@dimen/margin_intermediate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/delete_button"
+            app:layout_constraintBottom_toBottomOf="@+id/divider"
+            app:layout_constraintHorizontal_bias="0"/>
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_intermediate"
+            android:layout_marginEnd="@dimen/margin_intermediate"
+            android:src="@drawable/baseline_delete_24dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:layout_constraintStart_toStartOf="@+id/title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/divider"
+            app:layout_constraintHorizontal_bias="1"/>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/content"/>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/note_content_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/margin_intermediate"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

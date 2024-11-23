@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="menu_title">Your notes</string>
+    <string name="note_editor_hint_title">Choose a title...</string>
+    <string name="note_editor_hint_content">Choose a title...</string>
+</resources>

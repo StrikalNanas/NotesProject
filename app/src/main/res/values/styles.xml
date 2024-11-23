@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EditTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="boxStrokeColor">@color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="boxBackgroundColor">@color/transparent</item>
+    </style>
+
+</resources>
