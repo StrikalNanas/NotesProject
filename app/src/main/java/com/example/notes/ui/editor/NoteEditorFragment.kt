@@ -39,8 +39,8 @@ class NoteEditorFragment : Fragment() {
 
         viewBinding.apply {
             saveNoteButton.setOnClickListener {
-                val title = editorTitle.text.toString()
-                val content = editorContent.text.toString()
+                val title = editorTitle.text.toString().trim()
+                val content = editorContent.text.toString().trim()
 
                 if (title.isNotBlank() && content.isNotBlank()) {
                     val note = NoteDomain(
